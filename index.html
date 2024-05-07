@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        /* body{
+            animation-name: karthi;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes karthi{
+            0%{
+                background-color: rgb(232, 193, 206);
+            }
+            25%{
+                background-color: palevioletred;
+            }
+            50%{
+                background-color: rgb(216, 73, 121);
+            }
+            75%{
+                background-color: rgb(219, 44, 102);
+            }
+            100%{
+                background-color: rgb(213, 5, 74);
+            }
+        } */
+        body{
+            background-color: rgb(245, 237, 237);
+        }
+        .topbar{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            /* border: 2px solid black; */
+        }
+        .topbar > .topbar1{
+            display: flex;
+            margin-left: 70px;
+            float: left;
+            padding-top: 10px;
+            color: black;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-shadow: 5px 5px 10px rgb(167, 9, 36);
+            
+        }
+        .topbar > .topbar2 {
+            margin-left: 900px;
+            padding-top: 15px;
+        }
+        .topbar > .topbar2 > ul > li{
+            float: left;
+            list-style-type: none;
+            display: flex;
+            padding-left: 25px;
+            
+        }
+        .topbar > .topbar2 > ul > li > a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-shadow: 1px 1px 3px black;
+        }
+        .mainbody{
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 600px;  
+        }
+        .mainbody > .part1{
+            /* border: 2px solid black; */
+            width: 35%;
+            height: 500px;
+            float: left;
+            margin-left: 150px;
+            margin-top: 150px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            color: rgb(66, 48, 48);
+            /* letter-spacing: 2px; */
+            /* color: var(--text-light) */
+        }
+        .mainbody > .part1 > button{
+            padding: 8px;
+            border-radius: 10px;
+            border-color: rgb(179, 90, 105);
+            box-shadow: 7px 7px 10px rgb(179, 90, 105);
+            background-color: rgb(246, 108, 154);
+        }
+        .mainbody > .part1 > button :hover{
+            background-color:rgb(178, 136, 178) ;
+            
+            /* color: white; */
+        }
+        .mainbody > .part1 > button > a{
+            text-decoration: none;
+            font-size: 20px;
+            color:black;
+            
+        }
+        .mainbody > .part2{
+            /* border: 2px solid black; */
+            border-radius: 50%;
+            width: 40%;
+            height: 500px;
+            float: left;
+            position: relative;
+            margin-left: 70px;
+            margin-top: 50px;
+            right: 50px;
+            overflow: hidden;
+            animation-name: image1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            box-shadow: 2px 2px 30px rgb(226, 9, 110);
+            
+        }
+        .mainbody > .part2 > img{
+            animation-name: img;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes img{
+            from{
+                transform: rotateY(0deg);
+            }
+            to{
+                transform: rotateY(360deg);
+            }
+        }
+        @keyframes image1{
+            0%{
+                background-color: rgb(221, 63, 108);
+            }
+            25%{
+                background-color: rgb(245, 101, 183);
+            }
+            50%{
+                background-color: rgb(205, 95, 177);
+            }
+            75%{
+                background-color: rgb(195, 136, 136);
+            }
+            100%{
+                background-color: rgb(243, 142, 142);
+            }
+        }
+        .mainbody > .part2 > img{
+            position: relative;
+            right: 60px;
+            top: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar1">
+            <h2>KARTHIKEYAN </h2>
+        </div>
+        <div class="topbar2">
+            <ul>
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="resume.html">EDUCATION</a></li>
+                <li><a href="tech-skill.html">TECH SKILL</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="mainbody">
+        <div class="part1">
+            <h3 style="color: grey; font-size: 17px;">Hello</h3>
+            <h2>I'm Karthikeyan</h2>
+            <h2>Full Stack Web Developer</h2>
+            <p style="color: grey; font-size: 17px;">Welcome to my wed developer portfolio i'm Karthikeyan, a skilled and<br>
+                creative, wed developer with a passion for creating beautiful,<br>
+                responsive, and user-friendly wedsites. i've worked on a variety of<br>
+                web projects, ranging from personal blog to e-commerce <br>
+                platfoms.
+            </p>
+            <button type="button"><a href="resume.html">Education</a></button>
+        </div>
+        <div class="part2">
+            <img src="images/download-removebg-preview.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
